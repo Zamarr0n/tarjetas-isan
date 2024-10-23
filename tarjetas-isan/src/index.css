@@ -1,4 +1,4 @@
-:root {
+/* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -11,6 +11,10 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+} */
+body{
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -22,47 +26,173 @@ a:hover {
   color: #535bf2;
 }
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
+footer{
+  background-color: red;
+  color: white;
+} 
+#Map{
+  padding-bottom: 2.5rem;
+}
+.footer-section{
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
 }
-button:hover {
-  border-color: #646cff;
+.btn-sc{
+  display: flex;
+  justify-content: space-between;
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
 }
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+.btn-rd{
+  border: 1px solid black;
+  padding: 10px 10px;
+}
+.Wh{
+  color: white;
+  background-color: green;
+}
+.Wh:hover{
+  color: green;
+  background-color: white;
+
+}
+.Gm{
+  color: white;
+  background-color: red;
+}
+.Gm:hover{
+  color: red;
+  background-color: white;
+}
+.fb{
+  color: white;
+  background-color:blue ;
+}
+.fb:hover{
+  color: blue;
+  background-color: white;
+}
+.section-sc{
+  position: relative;
+  bottom: 70px;
+}
+.header-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* .images-div{
+  margin-left: auto;
+  margin-right: auto;
+} */
+.div-bk-image{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  
+  /* right: 20%; */
+}
+.background-image{
+  top: 0px;
+  width: 80%;
+  z-index: -1;
+}
+.profile-div{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  bottom: 40px;
+} 
+.profile-image{
+  position:relative;
+  /* border-radius: 70%; */
+  width: 20%;
+  z-index: 1;
+}
+.name{
+  position: relative;
+  bottom: 70px;
+  text-align: center;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
+.div-center-introduction{
+  max-width: 50%;
+  position: relative;
+  bottom: 70px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.map-orientation{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.div-text-center{
+  display: flex;
+  justify-content: center;
+}
+/* .text-left{
+  text-align: left;
+} */
+ .btn-conocenos-div{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  bottom: 40px;
+ }
+.conocenos-btn{
+  color: white;
+  background-color: blue;
+  border:none;
+  padding: 1rem;
+}
+.conocenos-btn:hover{
+  color: blue;
+  background-color: white;
+}
+.footer-data{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+@media only screen and (max-width: 600px) {
+  /* :root {
     color: #213547;
     background-color: #ffffff;
+  } */
+  h1{
+    font-size: 42px;
   }
   a:hover {
     color: #747bff;
   }
   button {
     background-color: #f9f9f9;
+  }
+  .div-center-introduction{
+    max-width: 70%;
+    position: relative;
+    bottom: 70px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footer-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 }
