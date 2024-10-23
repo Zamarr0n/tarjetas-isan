@@ -17,7 +17,7 @@ function Header(){
         </div>
         </div>
         <div className='name'>
-        <h1>Juan Ramirez Gonsalez</h1>
+        <h1>Juan Ramirez González</h1>
         </div>
         </div>
         </section>
